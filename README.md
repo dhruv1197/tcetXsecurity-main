@@ -20,3 +20,27 @@ Will update with the exact problem statement soon :)
 100.0.101.1
 
 These are a few IP Address's that will work and are mentioned in my Mock Dataset.
+
+------------------------------------------------------------------------------------------
+
+**Risk Score = ∑( RFi ×Wi )**
+
+Where:
+
+RFi = Risk factor  (e.g., IP reputation score, email authentication status)
+
+Wi = Weight assigned to risk factor 
+
+Example of Risk Scoring
+Consider a scenario where you assess three factors:
+**IP Reputation Score**: -2 points for a known spam IP.
+**Email Authentication**: +3 points for passing SPF and DKIM.
+**User Behavior**: +1 point for normal login patterns.
+
+Using the formula:
+
+Risk Score=(−2×1)+(3×1)+(1×1)=−2+3+1=2
+In this case, a positive score indicates a moderate risk level.
+
+
+-------------------------------------------------------------------------------------------
