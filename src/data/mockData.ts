@@ -1,0 +1,122 @@
+export const ipDatabase = [
+    {
+      id: '1',
+      ipAddress: '192.168.1.1',
+      emailServer: 'mail.suspicious-domain.com',
+      spfRecord: 'v=spf1 -all',
+      dmarcPolicy: 'p=reject',
+      suspiciousActivity: true,
+      lastSeen: '2024-10-26',
+      location: 'Thakur College of Engineering & Technology',
+      isp: 'AI&ML RBL',
+      riskScore: 8.5
+    },
+    {
+      id: '2',
+      ipAddress: '8.8.8.8',
+      emailServer: 'gmail-smtp-in.l.google.com',
+      spfRecord: 'v=spf1 include:_spf.google.com ~all',
+      dmarcPolicy: 'p=quarantine',
+      suspiciousActivity: false,
+      lastSeen: '2024-10-27',
+      location: 'Mountain View, CA',
+      isp: 'Google',
+      riskScore: 1.0
+    },
+    {
+      id: '3',
+      ipAddress: '10.0.0.1',
+      emailServer: 'mail.phishing-attempt.net',
+      spfRecord: 'Not Found',
+      dmarcPolicy: 'None',
+      suspiciousActivity: true,
+      lastSeen: '2024-10-28',
+      location: 'TCET',
+      isp: 'Mrs. Jagruti Jadhav',
+      riskScore: 9.8
+    },
+    {
+        id: '4',
+        ipAddress: '11.0.11.1',
+        emailServer: 'mail.phishing-attempt.net',
+        spfRecord: 'Not Found',
+        dmarcPolicy: 'None',
+        suspiciousActivity: true,
+        lastSeen: '2024-10-28',
+        location: 'TCET',
+        isp: 'Dr. Shiwani Gupta',
+        riskScore: 10
+      },
+      {
+        id: '5',
+        ipAddress: '12.1.21.1',
+        emailServer: 'mail.phishing-attempt.net',
+        spfRecord: 'Not Found',
+        dmarcPolicy: 'None',
+        suspiciousActivity: false,
+        lastSeen: '2024-10-28',
+        location: 'TCET',
+        isp: 'Dr. Shilpa Mathur',
+        riskScore: 8.9
+      },
+      {
+        id: '6',
+        ipAddress: '13.0.13.1',
+        emailServer: 'mail.phishing-attempt.net',
+        spfRecord: 'Not Found',
+        dmarcPolicy: 'None',
+        suspiciousActivity: false,
+        lastSeen: '2024-10-28',
+        location: 'TCET',
+        isp: 'Mrs. Sampada Bhonde',
+        riskScore: 8.5
+      },
+      {
+        id: '7',
+        ipAddress: '14.1.28.1',
+        emailServer: 'mail.phishing-attempt.net',
+        spfRecord: 'Not Found',
+        dmarcPolicy: 'None',
+        suspiciousActivity: false,
+        lastSeen: '2024-10-28',
+        location: 'TCET',
+        isp: 'Mrs. Pranjali',
+        riskScore: 8.8
+      },
+      {
+        id: '8',
+        ipAddress: '15.20.25.30',
+        emailServer: 'mail.phishing-attempt.net',
+        spfRecord: 'Not Found',
+        dmarcPolicy: 'None',
+        suspiciousActivity: false,
+        lastSeen: '2024-10-28',
+        location: 'TCET',
+        isp: 'Mr. Anand Maha',
+        riskScore: 5.0
+      },
+      {
+        id: '9',
+        ipAddress: '95.0.95.1',
+        emailServer: 'mail.phishing-attempt.net',
+        spfRecord: 'Not Found',
+        dmarcPolicy: 'None',
+        suspiciousActivity: false,
+        lastSeen: '2024-10-28',
+        location: 'TCET',
+        isp: 'Mr. Abhijeet Jadhav',
+        riskScore: 5.0
+      },
+      {
+        id: '10',
+        ipAddress: '100.0.101.1',
+        emailServer: 'mail.phishing-attempt.net',
+        spfRecord: 'Not Found',
+        dmarcPolicy: 'None',
+        suspiciousActivity: false,
+        lastSeen: '2024-10-28',
+        location: 'TCET',
+        isp: 'Mr. Kunal Pandey',
+        riskScore: 5.0
+      }
+  ];
